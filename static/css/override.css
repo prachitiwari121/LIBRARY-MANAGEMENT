@@ -1,0 +1,323 @@
+/* General Styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec); /* Light gradient for the body */
+}
+
+* {
+  font-family: "Platypi", serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Typography */
+.fs-regular {
+  font-family: "Inter", serif !important;
+}
+
+.pt-300 {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pt-500 {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Background and Layout */
+.wall-bg {
+  position: relative;
+}
+
+.wall--heading {
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  border: none;
+  color: white;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #003d82, #0056b3);
+  transform: translateY(-2px);
+}
+
+/* Card Styling */
+.custom-card {
+  background: linear-gradient(135deg, #f8f9fa, #e3e4e8);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Book Card Styling */
+.book-card {
+  background: linear-gradient(135deg, #f5f7fa, #e1e5ee); /* Light gradient background */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover .book-image {
+  transform: scale(1.05);
+}
+
+.book-info {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.book-author {
+  font-size: 1.1rem;
+  color: #16a085;
+}
+
+/* Author Text Styling */
+.author {
+  color: #e74c3c;
+  font-size: 1.1rem;
+}
+
+.authorr {
+  color: #8e44ad;
+  font-size: 1.1rem;
+}
+
+/* Badges */
+.badge_return {
+  background: #e74c3c;
+  color: #fcfcfc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.revoke {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+/* Modal Header and Footer Styling */
+.modal-header {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.modal-footer {
+  background-color: #ecf0f1;
+}
+
+/* List Group Item Styling */
+.list-group-item {
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: background 0.3s ease;
+}
+
+.list-group-item:hover {
+  background: #f8f9fa;
+}
+
+/* Dashboard Styling */
+.dashboard-container {
+  padding: 20px;
+  background: #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  color: #ecf0f1;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+}
+
+.refresh-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background: #c0392b;
+}
+
+.dashboard-content {
+  overflow-x: auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #34495e;
+}
+
+.dashboard-table thead {
+  background: #2980b9;
+  color: #ecf0f1;
+}
+
+.dashboard-table th, .dashboard-table td {
+  padding: 12px;
+  border: 1px solid #7f8c8d;
+  text-align: left;
+  color: #ecf0f1;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.badge.issued {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.badge.pending {
+  background: #f1c40f;
+  color: #fff;
+}
+
+.badge.rejected {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.badge.returned {
+  background: #3498db;
+  color: #fff;
+}
+
+.badge.revoked {
+  background: #95a5a6;
+  color: #fff;
+}
+
+.action-btn {
+  background: #e67e22;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-left: 8px;
+  transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+  background: #d35400;
+}
+
+/* Circle Container Styling */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.circle {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: yellow;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stars {
+  margin-bottom: 0.5rem;
+}
+
+.card-header {
+  width: 100%;
+  text-align: center;
+}
+
+.card-body {
+  width: 100%;
+  text-align: center;
+}
+
+/* Background Color */
+.bg-purple {
+  background-color: purple !important;
+}
