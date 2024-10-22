@@ -20,13 +20,17 @@ This project is a **Digital Library Management System** built with **Flask** and
 - **Database**: SQLite
 
 ## Install Dependencies:
-- pip install -r requirements.txt
-  
+```bash
+pip install -r requirements.txt
+```
 ## Database Setup:
+```bash
 - python setup_db.py
-
+```
 ## Run
+```bash
 - python main.py
+```
 
 
 ![image](https://github.com/user-attachments/assets/baf9e4a4-7ce5-47f4-ac5f-80ff1624c669)
