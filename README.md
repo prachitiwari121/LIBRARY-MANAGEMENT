@@ -23,7 +23,7 @@ This project is a **Digital Library Management System** built with **Flask** and
 - pip install -r requirements.txt
   
 ## Database Setup:
--python setup_db.py
+- python setup_db.py
 
 ## Run
 - python main.py
