@@ -25,11 +25,11 @@ pip install -r requirements.txt
 ```
 ## Database Setup:
 ```bash
-- python setup_db.py
+python setup_db.py
 ```
 ## Run
 ```bash
-- python main.py
+python main.py
 ```
 
 
