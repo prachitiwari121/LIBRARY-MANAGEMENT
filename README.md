@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a **Digital Library Management System** built with **Flask** and **Vue.js**. Users can browse, request, and read books. Librarians can manage book requests and library sections.
+This project is a **Digital Library Management System** built with **Flask** and **Vue.js**. Users can browse, request, and read books. Librarians can manage book requests and library sections
 
 ## Features
 
